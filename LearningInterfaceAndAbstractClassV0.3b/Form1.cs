@@ -23,7 +23,11 @@ namespace LearningInterfaceAndAbstractClassV0._3b
             {
                 if (Bees[i] is INectarCollector) //By using loop for and adding word "is" we can check if this type of bee implement interface that we wanna use. If yes, we can assign new work to her.
                 {
-                Bees[i].DoThisJob("Zbieranie nektaru", 3);
+                    INectarCollector thisCollector;
+                    thisCollector = Bees[i] as INectarCollector; // we can use "as" word to decalre how to treat this object.
+                    thisCollector.GatherNectar();
+                    // Bees[i].DoThisJob("Zbieranie nektaru", 3); it's line from previous task. 
+
                 }
             }
         }

@@ -53,6 +53,7 @@
     </Compile>
     <Compile Include="INectarCollector.cs" />
     <Compile Include="IStingPatrol.cs" />
+    <Compile Include="IWorker.cs" />
     <Compile Include="NectarCollector.cs" />
     <Compile Include="NectarStinger.cs" />
     <Compile Include="Program.cs" />

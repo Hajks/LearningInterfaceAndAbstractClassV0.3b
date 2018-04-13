@@ -16,6 +16,10 @@ namespace LearningInterfaceAndAbstractClassV0._3b
         {
 
         }
+        public void GatherNectar()
+        {
+
+        }
 
     }
 }

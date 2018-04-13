@@ -6,9 +6,7 @@ using System.Threading.Tasks;
 
 namespace LearningInterfaceAndAbstractClassV0._3b
 {
-    interface INectarCollector
+    interface IWorker
     {
-        void FindFlowers();
-        void GatherNectar();
     }
 }
